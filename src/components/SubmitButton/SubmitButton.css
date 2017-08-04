@@ -1,0 +1,9 @@
+/* import your colors... */
+@value colors: "../../colors.css";
+@value customBlue, customRed, customGreen from colors;
+
+.submitButton {
+    composes: baseButton from "../Button/Button.css";
+    background-color: blue;
+    color: customRed;
+}

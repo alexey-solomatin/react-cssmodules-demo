@@ -1,0 +1,9 @@
+/* import your colors... */
+@value colors: "../../colors.css";
+@value customBlue, customRed, customGreen from colors;
+
+.baseButton {
+    border: 2px solid darkgray;
+    background-color: gray;
+    color: customBlue;
+}
